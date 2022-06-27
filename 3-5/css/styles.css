@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.row {
+  margin: 0 40px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* Border line */
+.border-min {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #fff;
+  width: 60px;
+  margin: 0 auto;
+}
+
+.wrapper .header .heading {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  margin: 84px 0 26px 0;
+}
+
+.section-article {
+  margin-top: 50px;
+}
+
+.wrapper .section-top {
+  padding-top: 25px;
+}
+
+.wrapper .section-top .description-top {
+  font-size: 16px;
+  margin: 20px 0px 25px 0px;
+}
+
+.wrapper .section-top .title-top h2 {
+  font-size: 33px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.wrapper .section-top .title-top:not(.font-bg) h2 {
+  font-size: 25px;
+}
+
+.wrapper .section-top-body {
+  margin: 0 auto;
+}
+
+@media (min-width: 320px) and (max-width: 580px) {
+  .row {
+    margin: 0 15px;
+  }
+}

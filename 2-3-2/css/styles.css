@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.row {
+  margin: 0 40px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* Border line */
+.border-min {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #fff;
+  width: 60px;
+  margin: 0 auto;
+}
+
+.border-max {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #fff;
+  width: 79%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.wrapper .header .heading {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  margin: 84px 0 26px 0;
+}
+
+.wrapper .header .description {
+  padding: 50px 0 0;
+  text-align: center;
+}
+
+.wrapper .section-top-body {
+  margin: 50px 40px;
+}
+
+.wrapper .section-top .description-top {
+  font-size: 16px;
+  margin: 20px 0px 20px 0px;
+}
+
+.wrapper .section-top .title-top h2 {
+  font-size: 33px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.wrapper .section-top .title-top:not(.font-bg) h2 {
+  font-size: 25px;
+}
+
+.section-body {
+  margin: 50px 0 50px 0;
+}
+
+.body-title {
+  letter-spacing: 0px;
+  line-height: 13px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.body-text {
+  margin: 25px 0px 5px 0;
+  color: #00baff;
+}
+
+.text-warning {
+  padding-left: 10px;
+  font-size: 12px;
+  letter-spacing: 0px;
+  color: #ff00ff;
+  font-weight: 500;
+}
+
+.btn-continue {
+  width: 100%;
+  height: 80px;
+  border-radius: 60px;
+  background-color: #00b94e;
+  border: 1px solid #ffffff;
+  font-size: 25px;
+  line-height: 80px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Yu Go";
+  margin: 20px 0 20px;
+}
+
+.body-checkbox {
+  display: flex;
+  justify-content: center;
+  margin: 50px 50px;
+}
+
+.checkbox-text {
+  margin: -6px 5px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .row {
+    margin: 0 15px;
+  }
+
+  .wrapper .section-top-body {
+    margin: 50px 35px;
+  }
+}
