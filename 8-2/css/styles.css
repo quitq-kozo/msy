@@ -93,8 +93,23 @@ body {
   font-weight: 500;
 }
 
-input {
+.section-input input {
   width: 100%;
+  height: 45px;
+  border-radius: 4px;
+  background-color: #696969;
+  border: 1px solid #ffffff;
+  margin: 20px 0;
+  text-indent: 10px;
+}
+
+.multiple-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-multiple-input input {
+  width: 25%;
   height: 45px;
   border-radius: 4px;
   background-color: #696969;
